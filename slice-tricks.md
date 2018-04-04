@@ -8,14 +8,11 @@ At the first glance,
 * append example
 * split example
 
-Go's slice is a clever design. It has a look-and-feel of dynamic arrays in most other languages, but the design goal is quite different \(Believe me, this confused me as well\). Here is a list of fact about slices
+Go's slice is a clever design. It has a look-and-feel of dynamic arrays in most other languages, but the inner working is quite different \(Believe me, this confused me as well\). Here is a list of facts about slices
 
-* By definition, it's a struct with a pointer, length and capacity on top of arrays 
+* By definition, it's a struct with a pointer, length and capacity on top of arrays
 * a view on an array
-* a dynamic layer on an array
 * full control over memory allocation
-
-
 
 
 
